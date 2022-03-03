@@ -224,12 +224,25 @@
     width: 20%;
 }
 .mid {
-    border: 5px solid black;
+    
     height: 50vh;
     width: 50%;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
+}
+.img-circular {
+  width: 300px;
+  height: 45vh;
+  background-image: url(https://drive.google.com/thumbnail?id=19pf_eM2RV7A-dadfFqb1WqzZf6xe0_dK);
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 2.5vh;
 }
 .right {
     border: 1px solid blue;

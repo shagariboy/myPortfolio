@@ -260,6 +260,7 @@ body {
   text-align: center;
   margin-left: 25%;
   margin-top: 2.5vh;
+  justify-content: center;
 }
 p {
   font-family: Monaco;

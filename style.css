@@ -287,7 +287,7 @@ h1 {
     float: left;
 }
 .about {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   text-align: center;
   font-family: fantasy;
@@ -349,6 +349,13 @@ h2 {
   margin-left: 10%;
   
   float: left;
+}
+#gradient2 {
+  width: 100%;
+    height: 100%;
+    background-color: purple;
+    background-image: linear-gradient(purple, black);
+    font-family: fantasy;
 }
 h3 {
   font-size: 1.5rem;

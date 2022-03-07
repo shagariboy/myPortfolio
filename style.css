@@ -210,7 +210,7 @@ body {
 }
 .gradient {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: purple;
     background-image: linear-gradient(purple, black);
     font-family: 'Ubuntu', sans-serif;
@@ -347,7 +347,7 @@ h2 {
   min-height: 50vh;
   width: 70%;
   margin-left: 10%;
-  
+  align-content: center;
   float: left;
 }
 #gradient2 {
@@ -363,7 +363,7 @@ h3 {
   color: #FEFEFE;
   text-align: left;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 5vh;
 }
 h3::before,
@@ -384,20 +384,20 @@ h3::after {
 .imgSkill1 {
   
   margin-right: 5%;
-  width: 30%;
+  width: fit-content;
   float: left;
   height: 30vh;
 }
 .imgSkill2 {
   
   margin-right: 5%;
-  width: 30%;
+  width: fit-content;
   float: left;
   height: 30vh;
 }
 .imgSkill3 {
   
-  width: 30%;
+  width: fit-content;
   float: left;
   height: 30vh;
 }

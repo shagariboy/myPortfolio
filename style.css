@@ -258,7 +258,7 @@ body {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   text-align: center;
-  margin-left: 25%;
+  
   margin-top: 2.5vh;
   justify-content: center;
 }
@@ -269,7 +269,7 @@ p {
     margin: 0;
     letter-spacing: 2px;
     margin-top: 2vh;
-    text-align: center;
+    text-align: left;
 }
 h1 {
   font-family: Monaco;
@@ -278,7 +278,7 @@ h1 {
     margin: 0;
     letter-spacing: 2px;
     
-    text-align: center;
+    text-align: left;
 }
 .right {
     

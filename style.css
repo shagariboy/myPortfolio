@@ -422,3 +422,23 @@ h3::after {
     background-image: linear-gradient(black, purple);
     font-family: fantasy;
 }
+.services-list {
+  list-style-type: square;
+  margin: 0;
+  font-family: fantasy;
+}
+.servicesText {
+  min-height: 40vh;
+  width: 80%;
+  float: left;
+  padding-left: 10%;
+  font-family: fantasy;
+
+}
+#sText {
+  font-size: 1.1rem;
+  text-align: left;
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}

@@ -442,3 +442,10 @@ h3::after {
   font-family: fantasy;
   letter-spacing: 2px;
 }
+#gradient4 {
+  width: 100%;
+    height: 100%;
+    background-color: purple;
+    background-image: linear-gradient(black, purple);
+    font-family: fantasy;
+}

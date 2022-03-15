@@ -294,7 +294,7 @@ h1 {
 }
 #gradient1 {
   width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: purple;
     background-image: linear-gradient(black, purple);
     font-family: fantasy;
@@ -353,7 +353,7 @@ h2 {
 }
 #gradient2 {
   width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: purple;
     background-image: linear-gradient(purple, black);
     font-family: fantasy;
@@ -422,9 +422,9 @@ h3::after {
   opacity: 0.8;
   text-align: center;
 }
-#gradient3 {
+#services {
   width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: purple;
     background-image: linear-gradient(black, purple);
     font-family: fantasy;
@@ -449,9 +449,92 @@ h3::after {
   font-family: fantasy;
   letter-spacing: 2px;
 }
-#gradient4 {
+#projects {
   width: 100%;
-    height: 100%;
+    height: 250vh;
+    background-color: purple;
+    background-image: linear-gradient(purple, black);
+    font-family: fantasy;
+}
+.recentProjectsWrapper, .blogTitle, .contactMeWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-top: 16vh;
+  padding-bottom: 100px;
+  font-size: 3.25rem;
+  font-weight: 900;
+  color: rgb(0, 0, 79);
+}
+
+.recentProjects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 75px;
+  padding: 0 50px;
+}
+
+.recentProjects section {
+  
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding: 50px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 0px 42px 1px rgba(0,4,71,0.46); 
+  
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.recentProjects section h3 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 800;
+}
+
+.recentProjects section p {
+  font-size: 1.25rem;
+  width: 75%;
+  padding: 10px;
+  line-height: 2rem;
+  font-weight: 300;
+  color: white;
+}
+
+.recentProjects section p span {
+  font-weight: 600;
+}
+
+.salonImage {
+  width: 75%;
+  border-radius: 14px;
+  -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
+  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
+}
+
+.cuisineImage {
+  width: 85%;
+  border-radius: 14px;
+  -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
+  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
+}
+
+.digibuildImage {
+  width: 80%;
+  border-radius: 14px;
+  -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
+  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
+}
+
+#gradient5 {
+  width: 100%;
+    height: 100vh;
     background-color: purple;
     background-image: linear-gradient(black, purple);
     font-family: fantasy;

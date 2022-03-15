@@ -402,6 +402,13 @@ h3::after {
   float: left;
   height: 30vh;
 }
+.imgSkill4 {
+  
+  width: fit-content;
+  float: left;
+  height: 30vh;
+  margin-left: 5em;
+}
 .skill-img {
   width: 7.5em;
   height: 6em;

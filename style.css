@@ -500,7 +500,7 @@ h3::after {
 
 .recentProjects section p {
   font-size: 1.25rem;
-  width: 75%;
+  max-width: 75%;
   padding: 10px;
   line-height: 2rem;
   font-weight: 300;
@@ -512,21 +512,21 @@ h3::after {
 }
 
 .salonImage {
-  width: 75%;
+  max-width: 75%;
   border-radius: 14px;
   -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
   box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
 }
 
 .cuisineImage {
-  width: 85%;
+  max-width: 85%;
   border-radius: 14px;
   -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
   box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
 }
 
 .digibuildImage {
-  width: 80%;
+  max-width: 80%;
   border-radius: 14px;
   -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
   box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);

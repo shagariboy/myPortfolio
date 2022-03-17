@@ -324,7 +324,7 @@ h2 {
     display: block;
     position: relative;
     min-height: 1px;
-    background-color: rgb(59, 89, 141);
+    
 }
 
 .title::after {
@@ -512,7 +512,7 @@ h3::after {
 }
 
 .salonImage {
-  max-width: 75%;
+  max-width: 100%;
   border-radius: 14px;
   -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
   box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
@@ -536,6 +536,196 @@ h3::after {
   width: 100%;
     height: 100vh;
     background-color: purple;
-    background-image: linear-gradient(black, purple);
+    background-image: linear-gradient(purple, black);
     font-family: fantasy;
+}
+
+
+.features {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 0 2em 0;
+  margin-left: 10%;
+  
+}
+
+  .features article {
+    padding: 1.75em 1.75em 0.1em 1.75em ;
+    
+    border-radius: 12px;
+    margin: 1.5em 3em 1.5em 0;
+    width: calc(50% - 1.5em);
+    -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
+  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
+  }
+
+    .features article:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    .features article .image {
+      border-radius: 5px 5px 0 0;
+      display: block;
+      margin-bottom: 1.75em;
+      margin-left: -1.75em;
+      margin-top: -1.75em;
+      position: relative;
+      width: calc(100% + 3.5em);
+    }
+
+      .features article .image img {
+        border-radius: 5px 5px 5px 5px;
+        width: fit-content;
+        -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
+  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
+
+      }
+
+  @media screen and (max-width: 980px) {
+
+    .features article {
+      margin: 1em 2em 1em 0;
+      width: calc(50% - 1em);
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    .features article {
+      padding: 1.5em 1.5em 0.1em 1.5em ;
+      margin: 0.875em 1.75em 0.875em 0;
+      width: calc(50% - 0.875em - 1px);
+    }
+
+      .features article .image {
+        
+        margin-left: -1.5em;
+        margin-top: -1.5em;
+        width: calc(100% + 3em);
+      }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .features {
+      display: block;
+    }
+
+      .features article {
+        width: 100%;
+        margin: 0 0 2em 0 !important;
+      }
+
+  }
+
+.major {
+  padding-bottom: 1em;
+  border-bottom: solid 2px wheat;
+  width: 30vw;
+  margin-left: 10%;
+}  
+.major1 {
+  padding-bottom: 1em;
+  border-bottom: solid 2px wheat;
+  
+}
+
+
+#majorTitle {
+  padding-bottom: 1em;
+  border-bottom: solid 2px wheat;
+  width: 30vw;
+} 
+
+/* The Modal (background) */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
+  }
 }

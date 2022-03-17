@@ -10,8 +10,22 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 <script src="https://kit.fontawesome.com/c01b52cc25.js" crossorigin="anonymous"></script>
     <title>pubYana!</title>
+
   </head>
   <body>
     <header>
@@ -64,7 +78,7 @@
           </section>
           <section id="gradient2">
             <section class="skills">
-              <h3 id="pSkills"><b>Languages & Skills</b></h3>
+              <h3 id="pSkills">Languages & Skills</h3>
               <section class="imgSkill1">
                 <img class="skill-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                                         alt="html5" />
@@ -106,7 +120,7 @@
                 <section class="features">
                     
                     <article>
-                        <a class="image"><img id="myImg" src="https://drive.google.com/thumbnail?id=1Lait1csXXdtcQGr7ph-MUtVA1L5saP_5" alt="" /></a>
+                        <a class="image"><img id="myImg" src="https://drive.google.com/thumbnail?id=1Bg5X4BYoDBE3AtJosONF3a-H7cW4yf0n" alt="" /></a>
                         <div id="myModal" class="modal">
                           <span class="close">×</span>
                           <img class="modal-content" id="img01">
@@ -133,7 +147,111 @@
                 
             </div>
         </section>
-        <section id="gradient5"></section>
+        <section id="gradient5">
+          <div class="container-contact100">
+            <div class="wrap-contact100">
+              <form class="contact100-form validate-form">
+                <span class="contact100-form-title">
+                  Say Hello!
+                </span>
+        
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                  <span class="label-input100">Your Name</span>
+                  <input class="input100" type="text" name="name" placeholder="Enter your name">
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                  <span class="label-input100">Email</span>
+                  <input class="input100" type="text" name="email" placeholder="Enter your email addess">
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="wrap-input100 input100-select">
+                  <span class="label-input100">Needed Services</span>
+                  <div>
+                    <select class="selection-2" name="service">
+                      <option>Choose Services</option>
+                      <option>Website</option>
+                      <option>Web App</option>
+                      <option>Email Signature</option>
+                      <option>Website Management</option>
+                    </select>
+                  </div>
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="wrap-input100 input100-select">
+                  <span class="label-input100">Budget</span>
+                  <div>
+                    <select class="selection-2" name="budget">
+                      <option>Select Budget</option>
+                      <option>1500 $</option>
+                      <option>2000 $</option>
+                      <option>2500 $</option>
+                    </select>
+                  </div>
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                  <span class="label-input100">Message</span>
+                  <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="container-contact100-form-btn">
+                  <div class="wrap-contact100-form-btn">
+                    <div class="contact100-form-bgbtn"></div>
+                    <button class="contact100-form-btn">
+                      <span>
+                        Submit
+                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        
+        
+        
+          <div id="dropDownSelect1"></div>
+        
+        <!--===============================================================================================-->
+          <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+          <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+          <script src="vendor/bootstrap/js/popper.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+          <script src="vendor/select2/select2.min.js"></script>
+          <script>
+            $(".selection-2").select2({
+              minimumResultsForSearch: 20,
+              dropdownParent: $('#dropDownSelect1')
+            });
+          </script>
+        <!--===============================================================================================-->
+          <script src="vendor/daterangepicker/moment.min.js"></script>
+          <script src="vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+          <script src="vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+          <script src="js/main.js"></script>
+        
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-23581568-13');
+        </script>
+        </section>
         
         
     </section>

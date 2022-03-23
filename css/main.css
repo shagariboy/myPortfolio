@@ -183,7 +183,7 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Monaco;
   font-size: 39px;
   color: #333333;
   line-height: 1.2;
@@ -297,6 +297,7 @@ textarea.input100 {
   border-radius: 25px;
   overflow: hidden;
   margin: 0 auto;
+  font-family: Monaco;
 }
 
 .contact100-form-bgbtn {
@@ -311,7 +312,7 @@ textarea.input100 {
   background: linear-gradient(left, purple, black, purple, black);
   top: 0;
   left: -100%;
-
+  font-family: Monaco;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;

@@ -737,3 +737,15 @@ h3::after {
       width: 100%;
   }
 }
+.live {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-family: Monaco;
+  font-size: smaller;
+  -webkit-font-smoothing: antialiased;
+  color: wheat;
+}

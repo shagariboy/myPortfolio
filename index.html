@@ -128,19 +128,33 @@
                         </div>
                         <h3 class="major1">Private School</h3>
                         <p id="pText">Built using <span>HTML5</span>, <span>CSS3</span> and <span>Wordpress</span>. The client required a website that would showcase their school and what they offer.</p>
-                        
+                        <div class="live">
+                          <a href="https://wiseupschoollagos.com/" rel="noopener noreferrer" target="_blank" class="live-link">Live Link</a>
+                        </div>
                     </article>
                     <article>
-                        <a class="image"><img src="https://drive.google.com/thumbnail?id=1U7jheYMbENqtZWCeC19RCEtl5aN2KomU" alt="" /></a>
+                        <a class="image"><img id="myImg" src="https://drive.google.com/thumbnail?id=1U7jheYMbENqtZWCeC19RCEtl5aN2KomU" alt="" /></a>
+                        <div id="myModal" class="modal">
+                          <span class="close">×</span>
+                          <img class="modal-content" id="img02">
+                          <div id="caption"></div>
+                        </div>
                         <h3 class="major1">Cuisine Restaurant</h3>
-                        <p id="pText">Built using <span>HTML5</span>, <span>JavaScript</span> and <span>CSS3</span>. At the start of the pandemic, the client needed to move their business online so that they could still take orders from customers.</p>
+                        <p id="pText">Built using <span>HTML5</span>, <span>JavaScript</span> and <span>CSS3</span>. A clone of cuisine restaurant website</p>
                         
                     </article>
                     <article>
-                        <a class="image"><img src="https://drive.google.com/thumbnail?id=1hgy8Upw50GK5fHxnoCITZWMWK72baobO" alt="" /></a>
+                        <a class="image"><img id="myImg" src="https://drive.google.com/thumbnail?id=1hgy8Upw50GK5fHxnoCITZWMWK72baobO" alt="" /></a>
+                        <div id="myModal" class="modal">
+                          <span class="close">×</span>
+                          <img class="modal-content" id="img03">
+                          <div id="caption"></div>
+                        </div>
                         <h3 class="major1">Responsive Email Signature</h3>
                         <p id="pText">Built using <span>HTML5</span>. A top risk management firm needed their email appearance professional and thier email signature responsive on all email providers and platforms.</p>
-                        
+                        <div class="live">
+                          <a href="https://github.com/shagariboy/html/tree/master/emailSignature" rel="noopener noreferrer" target="_blank" class="live-link">Repo Link</a>
+                        </div>
                     </article>
                     
                 </section>
@@ -186,6 +200,7 @@
                   <div>
                     <select class="selection-2" name="budget">
                       <option>Select Budget</option>
+                      <option> < 1500 $</option>
                       <option>1500 $</option>
                       <option>2000 $</option>
                       <option>2500 $</option>
@@ -269,7 +284,7 @@ var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
+var modalImg = document.getElementById("img01", "img02", "img03");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";

@@ -231,17 +231,13 @@ body {
     height: 50vh;
     display: flex;
 }
-.left {
-    
-    height: 50vh;
-    width: 20%;
-}
+
 .mid {
     
     height: 60vh;
-    width: 50%;
+    width: 70%;
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
 }
 .intro {
@@ -294,7 +290,7 @@ h1 {
 }
 #gradient1 {
   width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: purple;
     background-image: linear-gradient(black, purple);
     font-family: fantasy;
@@ -309,6 +305,7 @@ h1 {
   position: relative;
   color: white;
   font-family: fantasy;
+  padding-top: 20px;
 }
 h2 {
   font-family: Monaco;
@@ -342,23 +339,26 @@ h2 {
 #pText {
   font-size: 1.1rem;
   text-align: left;
+  padding-bottom: 20px;
 }
 .skills {
-  min-height: 80vh;
+  min-height: 40vh;
   width: 70%;
   margin-left: 10%;
   align-content: center;
   float: left;
   margin-top: 5vh;
+  margin-bottom: 0;
 }
 
 #pSkills {
   font-family: Monaco;
+
 }  
 
 #gradient2 {
   width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-color: purple;
     background-image: linear-gradient(purple, black);
     font-family: fantasy;
@@ -429,15 +429,21 @@ h3::after {
 }
 #services {
   width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-color: purple;
     background-image: linear-gradient(black, purple);
     font-family: fantasy;
 }
+
+
 .services-list {
   list-style-type: square;
   margin: 0;
   font-family: fantasy;
+}
+.services-list li {
+  font-family: Monaco;
+  list-style-type: disc;
 }
 .servicesText {
   min-height: 40vh;
@@ -637,7 +643,8 @@ h3::after {
   padding-bottom: 1em;
   border-bottom: solid 2px wheat;
   width: 30vw;
-  margin-left: 10%;
+  
+  
 }  
 .major1 {
   padding-bottom: 1em;
@@ -649,7 +656,10 @@ h3::after {
 #majorTitle {
   padding-bottom: 1em;
   border-bottom: solid 2px wheat;
-  width: 30vw;
+  width: 50vw;
+  max-width: 80vw;
+  margin-left: 10%;
+
 } 
 
 /* The Modal (background) */

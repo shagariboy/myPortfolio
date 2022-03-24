@@ -78,8 +78,8 @@
     top: 0;
     left: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     padding: 0.5em 1em;
     background: orange;
     opacity: 0.6;
@@ -469,81 +469,6 @@ h3::after {
     background-image: linear-gradient(purple, black);
     font-family: fantasy;
 }
-.recentProjectsWrapper, .blogTitle, .contactMeWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  padding-top: 16vh;
-  padding-bottom: 100px;
-  font-size: 3.25rem;
-  font-weight: 900;
-  color: rgb(0, 0, 79);
-}
-
-.recentProjects {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 75px;
-  padding: 0 50px;
-}
-
-.recentProjects section {
-  
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 35px;
-  padding: 50px;
-  border-radius: 40px;
-  -webkit-box-shadow: 0px 0px 42px 1px rgba(0,4,71,0.46); 
-  
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-.recentProjects section h3 {
-  font-size: 2rem;
-  color: white;
-  font-weight: 800;
-}
-
-.recentProjects section p {
-  font-size: 1.25rem;
-  max-width: 75%;
-  padding: 10px;
-  line-height: 2rem;
-  font-weight: 300;
-  color: white;
-}
-
-.recentProjects section p span {
-  font-weight: 600;
-}
-
-.salonImage {
-  max-width: 100%;
-  border-radius: 14px;
-  -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
-  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
-}
-
-.cuisineImage {
-  max-width: 85%;
-  border-radius: 14px;
-  -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
-  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
-}
-
-.digibuildImage {
-  max-width: 80%;
-  border-radius: 14px;
-  -webkit-box-shadow: 0px 15px 50px 12px rgba(44, 44, 44, 0.81); 
-  box-shadow: 0px 15px 50px -12px rgba(39, 39, 39, 0.81);
-}
 
 #gradient5 {
   width: 100%;
@@ -570,7 +495,6 @@ h3::after {
 
   .features article {
     padding: 2.75em 1.75em 0.1em 1.75em ;
-    
     border-radius: 12px;
     margin: 2.0em 3em 1.5em 0;
     width: calc(50% - 1.5em);
@@ -624,6 +548,7 @@ h3::after {
         margin-left: -1.5em;
         margin-top: -1.5em;
         width: calc(100% + 3em);
+        
       }
 
   }
@@ -677,77 +602,10 @@ h3::after {
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  background-size: cover;
+#myImg:hover {
+  opacity: 0.7;
 }
 
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {    
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
@@ -767,6 +625,7 @@ h3::after {
   -webkit-font-smoothing: antialiased;
   color: wheat;
 }
+
 
 footer * {
   margin: 0;
@@ -791,8 +650,8 @@ footer * {
 .flex {
   display: flex;
   justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
 
 }
 
@@ -808,7 +667,7 @@ footer * {
   background: linear-gradient(180deg, var(--about-bg) 0%, var(--nav-bar-black) 100%);
 }
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }

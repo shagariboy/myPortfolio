@@ -118,7 +118,7 @@
     top: 10px;
   }
   .outer-menu .menu {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -134,10 +134,11 @@
     justify-content: center;
   }
   .outer-menu .menu > div {
-    width: 200vw;
-    height: 200vw;
-    color: #FEFEFE;
+    width: 50vw;
+    height: 50vw;
+    color: black;
     background: rgb(185, 122, 4);
+    opacity: 0.6;
     border-radius: 50%;
     transition: all 0.4s ease;
     flex: none;
@@ -178,7 +179,7 @@
     position: relative;
     display: inline;
     cursor: pointer;
-    transition: color 6.0s ease;
+    transition: color 0.4s ease;
   }
   .outer-menu .menu > div > div > ul > li > a:hover {
     color: #e5e5e5;
@@ -195,7 +196,7 @@
     width: 0;
     height: 2px;
     background: #e5e5e5;
-    transition: width 9.4s ease;
+    transition: width 0.4s ease;
   }
 body {
   font-family: 'Ubuntu', sans-serif;
